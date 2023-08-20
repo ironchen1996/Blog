@@ -1,0 +1,33 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  text-align: center;
+  height: 64;
+  padding-inline: 50;
+  line-height: 64px;
+  // border-bottom: ;
+  background-color: #fff;
+}
+
+.content {
+  text-align: center;
+  min-height: 120px;
+  color: #fff;
+  background-color: #F1F5F9;
+}
+
+.footer {
+  text-align: center;
+  color: #fff;
+  background-color: #f1f1f1;
+}
+
+.icon {
+  font-size: 20px;
+  margin-left: 20px;
+}

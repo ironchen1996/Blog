@@ -1,0 +1,31 @@
+.inputBar {
+    margin-top: 20px;
+}
+
+.listContainer {
+    height: 166px;
+    overflow-y: auto;
+}
+
+.emptyText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 34px;
+}
+
+.noMoreData {
+    text-align: center;
+    color: #b1b1b1;
+}
+
+.dataList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .date {
+        margin-right: 10px;
+        color: #b1b1b1;
+    }
+}

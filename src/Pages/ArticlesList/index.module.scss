@@ -1,0 +1,34 @@
+.home {
+    margin: 20px 30px 30px 180px;
+
+    .list {
+        margin-top: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+
+    .profile {
+        position: sticky;
+        top: 0;
+        margin: 20px 0;
+    }
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p {
+    color: #999;
+    margin: 0 10px 10px 10px;
+}
+
+.textOverflowEllipsis {
+    display: -webkit-box;
+    -webkit-line-clamp: 16;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

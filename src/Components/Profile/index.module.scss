@@ -1,0 +1,24 @@
+.avatar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.introduction {
+    margin-top: 1.2em;
+    text-align: center;
+    color: #999;
+}
+
+.introduction h1 {
+    color: #1e90ff;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+}
+
+.socialMedia span {
+    padding: .5em;
+}

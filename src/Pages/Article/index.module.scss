@@ -1,0 +1,45 @@
+.articleBox {
+    max-width: 955px;
+    border-radius: 5px;
+    margin: 40px 0 0 160px;
+    padding: 20px 30px !important;
+    background-color: #fff;
+}
+
+.loading {
+  margin: 30px 0;
+  margin-bottom: 20px;
+  margin-left: 38%;
+  padding: 30px 50px;
+//   text-align: center;
+}
+
+.articleTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+
+    .p {
+        margin: 0 10px 10px 10px;
+    }
+}
+
+.tagBox {
+    margin-top: 30px;
+}
+
+.profile {
+    margin: 40px 0 10px 0;
+}
+
+.markdownNav {
+    width: 300px;
+    margin-top: 5px;
+}
