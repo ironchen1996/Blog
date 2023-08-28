@@ -18,8 +18,8 @@ export async function createTag(name: string) {
 
 export async function getTagsService(opt: Partial<TagOption> = {}) {
   const url = `/api/tags`;
-  const response = await axios.get(url, { params: opt });
-  return response.data;
+  const data = await axios.get(url, { params: opt });
+  return data;
 }
 
 export async function getAllTagsService(opt: Partial<tagType> = {}) {
